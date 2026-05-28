@@ -1,0 +1,25 @@
+while True:
+  a= int(input("select a number"))
+  b= int(input("select second number"))
+  print("pick")
+  print("1. add")
+  print("2. subtract")
+  print("3. multiply")
+  print("4. divide")
+  print("5. to the power")
+  print("6. exit")
+  choice=input("pick(1-6)")
+  if choice=="1":
+    print("result",a+b)
+  elif choice=="2":
+    print("result",a-b)
+  elif choice=="3":
+    print("result", a*b)
+  elif choice=="4":
+    print("result",a/b)
+  elif choice=="5":
+    print("result",a**b)
+  elif choice=="6":
+    break
+  else:
+    print("invalid")
